@@ -1,8 +1,9 @@
 {
   "manifest_version": 2,
   "name": "Try Google",
-  "version": "1.1",
-  "description": "Use search terms for a Google search.",
+  "version": "1.2",
+  "description": "Use search terms from current page for a Google search.",
+  "homepage_url": "https://github.com/Jesperbk/TryGoogle",
   "icons": {
     "48": "icons/icon-dark.svg",
     "96": "icons/icon-dark.svg"
@@ -12,7 +13,7 @@
   ],
   "background": {
     "scripts": [
-      "try-google.js"
+      "js/try-google.js"
     ]
   },
   "browser_action": {

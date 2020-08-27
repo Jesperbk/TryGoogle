@@ -23,7 +23,7 @@ function openPage() {
         );
     }
     else {
-        browser.browserAction.setPopup({popup: "not-found.html"})
+        browser.browserAction.setPopup({popup: "html/not-found.html"})
         browser.browserAction.openPopup()
     }
 }
